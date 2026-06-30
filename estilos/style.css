@@ -56,7 +56,7 @@ article > p {
 
 #janela {
     display: none;
-    
+    padding: 0px 20px;
     position: fixed;
     height: 559px;
     top: 50%;
@@ -65,7 +65,7 @@ article > p {
      background: white;
     border: 1px solid #ccc;
     z-index: 1000;
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
 }
 
@@ -89,6 +89,13 @@ font-size: 1.2em;
 
 div#janela > h3 {
     margin-top: 30px;
+
+}
+
+#fechar {
+    text-align: right;
+    text-decoration: none;
+    color: #0062ff;
 }
 
 
