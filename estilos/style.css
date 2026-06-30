@@ -10,7 +10,7 @@ main {
 }
 
 h1 {
-
+padding-right: 53px;
 font-weight: 400;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 1.5em;
@@ -98,6 +98,7 @@ div#janela > h3 {
     float: right;
     text-decoration: none;
     color: #0062ff;
+    margin-top: 35px;
 }
 
 div#janela > p > img {
