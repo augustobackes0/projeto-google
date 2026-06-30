@@ -93,9 +93,15 @@ div#janela > h3 {
 }
 
 #fechar {
-    text-align: right;
+    float: right;
     text-decoration: none;
     color: #0062ff;
 }
 
+div#janela > p > img {
+    margin-right: 15px;
+}
 
+div#janela > p {
+  
+}
