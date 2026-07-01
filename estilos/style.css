@@ -4,19 +4,22 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+  
 }
+   
 main {
-    padding-left: 53px;
+  
+    width: 100%;
+    padding: 0px 53px;
+    box-sizing: border-box;
 }
 
-h1 {
-padding-right: 53px;
-font-weight: 400;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 1.5em;
-text-align: center;
-margin-top: 80px;
+main > img {
 
+display: block;
+margin: auto;
+margin-top: 80px;
+margin-bottom: 25px;
 }
 
 
@@ -51,8 +54,8 @@ article > p {
    text-align: center;
    margin-top: 15px;
  font-size: 1.2em;
-padding-right: 53px;
-width: 400px;
+
+
     
 }
 
