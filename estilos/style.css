@@ -18,28 +18,8 @@ main > img {
 
 display: block;
 margin: auto;
-margin-top: 80px;
+margin-top: 60px;
 margin-bottom: 25px;
-}
-
-
-
-
-
-.azul {
-    color: #4285F4;
-}
-
-.vermelho {
-    color: #EA4335;
-}
-
-.amarelo {
-    color: #FBBC05;
-}
-
-.verde { 
-    color: #34A853;
 }
 
 article > h2 {
