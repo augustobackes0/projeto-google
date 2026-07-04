@@ -43,12 +43,19 @@
                 </div>
             
         </article>
-        <div> 
-            <input type="email" name="email" id="iemail">
-        </div>
-        Esquceu o e-mail?
+        
+           <form action="cadastro.php" method="post" autocomplete="on"
+           >
+               
+            
+               <input type="email" name="email" id="iemail" placeholder="E-mail ou telefone" minlength="8" required maxlength="50" >
 
-        Criar conta
+               <input type="submit" value="Avançar" id="avançar">
+           </form>
+        <a href="pagina002.html" id="senha">Esquceu o e-mail?</a>
+
+        <a href="pagina003.html" id="criar_conta">Criar conta</a>  
+        
     </main>
 
 
