@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style05.css">
+</head>
+<body>
+   <main>
+    <article>
+        <img src="imagens/google.01.png" alt="google">
+        <h1>
+            Informações básicas
+        </h1>
+
+        <p>
+            Insira sua data de nascimento e gênero
+        </p>
+    </article>
+
+    <form action="criar_conta02.html" method="post">
+
+        <input type="date" name="date" id="idate" >
+        <input type="text" name="text" id="itext" required placeholder="Gênero" maxlength="10">
+        <input type="submit" value="Avançar" id="avançar">
+    </form>
+
+    <a href="#janela01" id="informação">Por que pedimos informações de data de nascimento e gênero</a>
+    <div id="janela01">
+        <h2>Por que perguntamos sua data de nascimento e gênero?</h2>
+        <p>
+        É necessário garantir sua data de nascimento. O google usa essa informação para garantir que voçê atende aos requisitos de idade de determinado serviço e oferecer uma experiência mais personalizada.
+        </p>
+
+        <p>
+            Compartilhar seu gênero é opcional. O Google só usa essa informação para oferecer uma experiencia mais personalizada.
+        </p>
+
+        <p>
+            <strong>Observação sobre privacidade:</strong> por padrão, sua data de nascimento e seu gênero não são compartilhados com outras pessoas que usam os Serviços do Google.
+        </p>
+        
+        <a href="#" id="fechar">Fehar</a>
+    </div>
+   </main>
+</body>
+</html>

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-|* {
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -14,7 +14,7 @@ main {
     box-sizing: border-box;
 }
 
-main > img {
+article >  img {
 
 display: block;
 margin: auto;
@@ -32,7 +32,10 @@ article > h1 {
 article > p {
    text-align: center;
    margin-top: 15px;
- font-size: 1.2em;  
+ font-size: 1.2em;
+
+
+    
 }
 
 
@@ -43,7 +46,6 @@ article > p {
     box-sizing: border-box;
     padding-left: 15px;
 }
-
 
 #itexto {
     margin-top: 30px;
