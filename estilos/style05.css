@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-  
+    
 }
    
 main {
@@ -43,7 +43,7 @@ article > p {
     display: none;
     padding: 0px 20px;
     position: fixed;
-    height: 400px;
+    height: 530px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -52,6 +52,15 @@ article > p {
     z-index: 1000;
     width: 300px;
     border-radius: 10px;
+}
+
+div > h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+div > p {
+    padding: 10px 0px;
 }
 
 #janela01:target {
@@ -96,11 +105,10 @@ article > p {
     width: 100%;
     box-sizing: border-box;
     padding-left: 15px;
+    
 }
 
-form {
-    margin-bottom: 200px;
-}
+
 
 #informação {
 text-decoration: none;
